@@ -1,0 +1,7 @@
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7
+
+# Optional: only needed for the live-capture demos in realtime/.
+# Requires the PortAudio system library (Debian/Ubuntu: apt install libportaudio2).
+sounddevice>=0.4.6

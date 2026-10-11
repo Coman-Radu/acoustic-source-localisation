@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Large third-party audio corpora — see data/README.md for fetch instructions
+data/drone-audio-detection-samples/
+data/audio_dataset/
+*.zip
+
+# Generated output.  The figures ARE committed: the README embeds them, so
+# they must render on GitHub without anyone running the experiments first.
+# Regenerate with the commands in the README's "Reproducing the figures".
+results/
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+.claude/
+tmpclaude-*
